@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MD-Simple</title>
+  <link rel="stylesheet" href="mds.css">
+  <script src="mds.js" defer></script>
+</head>
+
+<body class="mdc">
+  <header class="mdc-top">
+    <h1 class="mdc-top__title">My MD-Simple</h1>
+  </header>
+
+  <main class="mds">
+    <div class="mds-text">
+      <input type="text" class="mds-text__input">
+      <label class="mds-text__label">Title</label>
+      <span class="mds-text__bar"></span>
+    </div>
+
+    <div class="mds-text">
+      <input type="text" class="mds-text__input" disabled="disabled">
+      <label class="mds-text__label">Title</label>
+      <span class="mds-text__bar"></span>
+    </div>
+    </div>
+
+    <!--Checkbox-->
+    <div>
+      <label class="mds-checkbox">
+        <input class="mds-checkbox__input" type="checkbox">
+        <span class="mds-checkbox__checkmark"></span>
+      </label>
+
+      <label class="mds-checkbox">
+        <input class="mds-checkbox__input" type="checkbox" checked="checked" disabled="disabled">
+        <span class="mds-checkbox__checkmark"></span>
+      </label>
+    </div>
+
+    <!--Switch-->
+    <div>
+      <div class="mds-switch">
+        <input class="mds-switch__input" id="switch__input" type="checkbox">
+        <label class="mds-switch__label" for="switch__input"></label>
+      </div>
+
+      <div class="mds-switch">
+        <input class="mds-switch__input" id="switch__input--disabled" type="checkbox" checked="checked" disabled="disabled">
+        <label class="mds-switch__label" for="switch__input--disabled"></label>
+      </div>
+    </div>
+
+    <!--Radio button-->
+    <label class="mds-radio">Kvinna
+      <input class="mds-radio__input" type="radio" name="radio" checked="checked">
+      <span class="mds-radio__checkmark"></span>
+    </label>
+
+    <label class="mds-radio">Man
+      <input class="mds-radio__input" type="radio" name="radio">
+      <span class="mds-radio__checkmark"></span>
+    </label>
+
+  </main>
+</body>
+
+</html>
